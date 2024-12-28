@@ -1,11 +1,10 @@
 import { sleep } from '.';
 
-describe('sleep', () => {
-  it('normal', async () => {
-    expect(sleep('Foo', 'Bar')).toBe('Foo Bar');
-  });
+test('sleep', async () => {
+  const start = Date.now();
+  await sleep(100);
+  const end = Date.now();
 
-  it('lastName upper case', async () => {
-    expect(sleep('Foo', 'Bar', { lastNameUpperCase: true })).toBe('Foo BAR');
-  });
+  expect(end - start).toBeGreaterThan(99);
+  expect(end - start).toBeLessThan(105);
 });
