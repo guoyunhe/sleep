@@ -1,7 +1,13 @@
 {
   "name": "@guoyunhe/sleep",
   "description": "a better sleep function",
-  "license": "MIT",
+  "keywords": [
+    "sleep",
+    "delay",
+    "time",
+    "wait",
+    "idle"
+  ],
   "homepage": "https://github.com/guoyunhe/sleep#readme",
   "bugs": {
     "url": "https://github.com/guoyunhe/sleep/issues"
@@ -11,6 +17,7 @@
     "url": "git+https://github.com/guoyunhe/sleep.git"
   },
   "funding": "https://github.com/sponsors/guoyunhe",
+  "license": "MIT",
   "author": {
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
