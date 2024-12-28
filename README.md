@@ -1,6 +1,8 @@
-# sleep
+# @guoyunhe/sleep
 
-[![bundlephobia](https://badgen.net/bundlephobia/minzip/@guoyunhe/sleep)](https://bundlephobia.com/package/@guoyunhe/sleep)
+![Version](https://img.shields.io/npm/v/@guoyunhe/sleep)
+![Downloads](https://img.shields.io/npm/dw/@guoyunhe/sleep)
+![Bundle size](https://img.shields.io/bundlephobia/minzip/@guoyunhe/sleep)
 
 a better sleep function
 
